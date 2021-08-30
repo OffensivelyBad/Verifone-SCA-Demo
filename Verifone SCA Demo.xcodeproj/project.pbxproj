@@ -3,23 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290CF76F26DD85C20015D79A /* VFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 290CF76E26DD85C20015D79A /* VFDataManager.m */; };
+		290CF77326DD863B0015D79A /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 290CF77226DD863B0015D79A /* NSString+Base64.m */; };
+		290CF77626DD86A80015D79A /* NSData+VFBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 290CF77526DD86A80015D79A /* NSData+VFBase64.m */; };
 		293B6E2C26DC3573004746C4 /* Verifone_SCA_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B6E2B26DC3573004746C4 /* Verifone_SCA_DemoApp.swift */; };
 		293B6E2E26DC3573004746C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B6E2D26DC3573004746C4 /* ContentView.swift */; };
 		293B6E3026DC3574004746C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293B6E2F26DC3574004746C4 /* Assets.xcassets */; };
 		293B6E3326DC3574004746C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293B6E3226DC3574004746C4 /* Preview Assets.xcassets */; };
+		293B6E3B26DC36FD004746C4 /* RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B6E3A26DC36FD004746C4 /* RSA.swift */; };
+		90ACD85E727DCCF0618721C2 /* Pods_Verifone_SCA_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B65CB51DD2B3A796C9C670 /* Pods_Verifone_SCA_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		290CF76C26DD85C20015D79A /* Verifone SCA Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Verifone SCA Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		290CF76D26DD85C20015D79A /* VFDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFDataManager.h; sourceTree = "<group>"; };
+		290CF76E26DD85C20015D79A /* VFDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFDataManager.m; sourceTree = "<group>"; };
+		290CF77126DD863B0015D79A /* NSString+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		290CF77226DD863B0015D79A /* NSString+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		290CF77426DD86A80015D79A /* NSData+VFBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+VFBase64.h"; sourceTree = "<group>"; };
+		290CF77526DD86A80015D79A /* NSData+VFBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+VFBase64.m"; sourceTree = "<group>"; };
 		293B6E2826DC3573004746C4 /* Verifone SCA Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verifone SCA Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		293B6E2B26DC3573004746C4 /* Verifone_SCA_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verifone_SCA_DemoApp.swift; sourceTree = "<group>"; };
 		293B6E2D26DC3573004746C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		293B6E2F26DC3574004746C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		293B6E3226DC3574004746C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		293B6E3426DC3574004746C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293B6E3A26DC36FD004746C4 /* RSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA.swift; sourceTree = "<group>"; };
+		3940920454B87C038FFA8137 /* Pods-Verifone SCA Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verifone SCA Demo.release.xcconfig"; path = "Target Support Files/Pods-Verifone SCA Demo/Pods-Verifone SCA Demo.release.xcconfig"; sourceTree = "<group>"; };
+		5E676D2948E2A0DCAB498031 /* Pods-Verifone SCA Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verifone SCA Demo.debug.xcconfig"; path = "Target Support Files/Pods-Verifone SCA Demo/Pods-Verifone SCA Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B65CB51DD2B3A796C9C670 /* Pods_Verifone_SCA_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verifone_SCA_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +43,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90ACD85E727DCCF0618721C2 /* Pods_Verifone_SCA_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029A003E5D469B7DC268DCEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E676D2948E2A0DCAB498031 /* Pods-Verifone SCA Demo.debug.xcconfig */,
+				3940920454B87C038FFA8137 /* Pods-Verifone SCA Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		290CF77026DD85EF0015D79A /* Verifone */ = {
+			isa = PBXGroup;
+			children = (
+				290CF76D26DD85C20015D79A /* VFDataManager.h */,
+				290CF76E26DD85C20015D79A /* VFDataManager.m */,
+				290CF77126DD863B0015D79A /* NSString+Base64.h */,
+				290CF77226DD863B0015D79A /* NSString+Base64.m */,
+				290CF77426DD86A80015D79A /* NSData+VFBase64.h */,
+				290CF77526DD86A80015D79A /* NSData+VFBase64.m */,
+			);
+			path = Verifone;
+			sourceTree = "<group>";
+		};
 		293B6E1F26DC3573004746C4 = {
 			isa = PBXGroup;
 			children = (
 				293B6E2A26DC3573004746C4 /* Verifone SCA Demo */,
 				293B6E2926DC3573004746C4 /* Products */,
+				029A003E5D469B7DC268DCEF /* Pods */,
+				CECE33F8520F4703DF609808 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +93,14 @@
 		293B6E2A26DC3573004746C4 /* Verifone SCA Demo */ = {
 			isa = PBXGroup;
 			children = (
+				290CF77026DD85EF0015D79A /* Verifone */,
 				293B6E2B26DC3573004746C4 /* Verifone_SCA_DemoApp.swift */,
 				293B6E2D26DC3573004746C4 /* ContentView.swift */,
 				293B6E2F26DC3574004746C4 /* Assets.xcassets */,
 				293B6E3426DC3574004746C4 /* Info.plist */,
 				293B6E3126DC3574004746C4 /* Preview Content */,
+				293B6E3A26DC36FD004746C4 /* RSA.swift */,
+				290CF76C26DD85C20015D79A /* Verifone SCA Demo-Bridging-Header.h */,
 			);
 			path = "Verifone SCA Demo";
 			sourceTree = "<group>";
@@ -69,6 +113,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CECE33F8520F4703DF609808 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6B65CB51DD2B3A796C9C670 /* Pods_Verifone_SCA_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 293B6E3726DC3574004746C4 /* Build configuration list for PBXNativeTarget "Verifone SCA Demo" */;
 			buildPhases = (
+				CDEEF0B0696F7908E659F604 /* [CP] Check Pods Manifest.lock */,
 				293B6E2426DC3573004746C4 /* Sources */,
 				293B6E2526DC3573004746C4 /* Frameworks */,
 				293B6E2626DC3573004746C4 /* Resources */,
+				66AEE83E0FDCCB0DE3F0F910 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,6 +154,7 @@
 				TargetAttributes = {
 					293B6E2726DC3573004746C4 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -133,6 +188,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66AEE83E0FDCCB0DE3F0F910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Verifone SCA Demo/Pods-Verifone SCA Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Verifone SCA Demo/Pods-Verifone SCA Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Verifone SCA Demo/Pods-Verifone SCA Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDEEF0B0696F7908E659F604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Verifone SCA Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		293B6E2426DC3573004746C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +237,10 @@
 			files = (
 				293B6E2E26DC3573004746C4 /* ContentView.swift in Sources */,
 				293B6E2C26DC3573004746C4 /* Verifone_SCA_DemoApp.swift in Sources */,
+				290CF77326DD863B0015D79A /* NSString+Base64.m in Sources */,
+				290CF77626DD86A80015D79A /* NSData+VFBase64.m in Sources */,
+				293B6E3B26DC36FD004746C4 /* RSA.swift in Sources */,
+				290CF76F26DD85C20015D79A /* VFDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +365,11 @@
 		};
 		293B6E3826DC3574004746C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E676D2948E2A0DCAB498031 /* Pods-Verifone SCA Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Verifone SCA Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = EWH85CQYYJ;
@@ -279,6 +382,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.Verifone-SCA-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Verifone SCA Demo/Verifone SCA Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,9 +391,11 @@
 		};
 		293B6E3926DC3574004746C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3940920454B87C038FFA8137 /* Pods-Verifone SCA Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Verifone SCA Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = EWH85CQYYJ;
@@ -301,6 +408,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.Verifone-SCA-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Verifone SCA Demo/Verifone SCA Demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

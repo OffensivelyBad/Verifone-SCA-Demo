@@ -6,11 +6,20 @@
 //
 
 import SwiftUI
+import SwiftyRSA
 
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .onAppear() {
+                let b64Keys = generateBase64Keys()
+                print(b64Keys.publicKey)
+                print(b64Keys.privateKey)
+                
+                VFDataManager.sharedInstance().calculateMAC()
+                
+            }
     }
 }
 
